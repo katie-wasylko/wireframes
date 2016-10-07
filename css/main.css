@@ -1,0 +1,246 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-wedkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font: normal 100%/1.3 Verdana, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  margin: 0;
+  background-image: url(../assets/bikebw.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.layer {
+  background-color: rgba(22, 51, 66, 0.65);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+.logo {
+  width: 5rem;
+  display: block;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: -10;
+}
+
+.image-wrapper {
+  width: 100%;
+  padding-top: 50%;
+  background-size: cover;
+  background-position: center;
+  z-index: 100;
+}
+
+h1 {
+  position: absolute;
+  top: 5.5rem;
+  padding: 0;
+  width: 100%;
+  color: #C2DEDB;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  z-index: -10;
+}
+
+.skull {
+  width: 9rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  position: relative;
+  z-index: -10;
+}
+
+h2 {
+  position: absolute;
+  top: 17rem;
+  padding: 0.1rem;
+  width: 100%;
+  color: #FF7171;
+  color: rgba(255, 113, 113, 0.87);
+  text-align: center;
+  font-size: 40px;
+  z-index: 100;
+  line-height: 1em;
+}
+
+p {
+  font-size: 12px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #C2DEDB;
+  text-align: center;;
+  margin-top: 5rem;
+  z-index: 100;
+}
+
+.social {
+  text-align: center;
+  z-index: 100;
+}
+footer a {
+  text-decoration: none;
+}
+
+footer img {
+  display: inline-block;
+  width: 3rem;
+}
+
+.navbox {
+  text-align: right;
+  width: 100%;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+/*.nav-check:checked ~ .nav ul {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top:0;
+}*/
+
+.nav-label img{
+  color: white;
+  width: 25px;
+  float: right;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+  color: white;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  background-color: #FF7171;
+  text-align: center;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top:0;
+}
+
+.nav li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  margin: 0,auto;
+  padding: .5rem;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: grey;
+}
+
+@media only screen and (min-width: 25em) {
+
+  p {
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+  }
+
+@media only screen and (min-width: 30em) {
+
+  p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+@media only screen and (min-width: 38em) {
+
+  .skull {
+    width: 11rem;
+  }
+
+  h2 {
+    top: 18.3rem;
+    font-size: 45px;
+  }
+
+  p {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+@media only screen and (min-width: 48em) {
+
+  .skull {
+    width: 20rem;
+    margin-top: 4rem;
+  }
+
+  h2 {
+    top: 28rem;
+    font-size: 80px;
+  }
+
+  p {
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-top: 8.5rem;
+    font-size: 14px;
+  }
+
+@media only screen and (min-width: 56em) {
+
+  p {
+    margin-left: 11rem;
+    margin-right: 11rem;
+    font-size: 14px;
+  }
+
+@media only screen and (min-width: 64em) {
