@@ -35,7 +35,7 @@ body {
 }
 
 .layer {
-  background-color: rgba(22, 51, 66, 0.65);
+  background-color: rgba(22, 51, 66, 0.6);
   position: absolute;
   top: 0;
   left: 0;
@@ -45,9 +45,9 @@ body {
 }
 
 .logo {
-  width: 5rem;
+  width: 4.5rem;
   display: block;
-  margin-top: 1rem;
+  margin-top: -2rem;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -64,7 +64,7 @@ body {
 
 h1 {
   position: absolute;
-  top: 5.5rem;
+  top: 4rem;
   padding: 0;
   width: 100%;
   color: #C2DEDB;
@@ -75,7 +75,7 @@ h1 {
 }
 
 .skull {
-  width: 9rem;
+  width: 13rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -86,13 +86,13 @@ h1 {
 
 h2 {
   position: absolute;
-  top: 17rem;
+  top: 20.5rem;
   padding: 0.1rem;
   width: 100%;
   color: #FF7171;
   color: rgba(255, 113, 113, 0.87);
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   z-index: 100;
   line-height: 1em;
 }
@@ -103,13 +103,13 @@ p {
   margin-right: 2rem;
   color: #C2DEDB;
   text-align: center;;
-  margin-top: 5rem;
+  margin-top: 4rem;
   z-index: 100;
 }
 
 .social {
   text-align: center;
-  z-index: 100;
+  z-index: 1111100;
 }
 footer a {
   text-decoration: none;
@@ -120,70 +120,73 @@ footer img {
   width: 3rem;
 }
 
-.navbox {
-  text-align: right;
-  width: 100%;
-}
-
 .nav {
   display: none;
+}
+
+.nav a {
+  display: block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #333;
+  color: white;
+}
+
+.nav-check {
+  position: absolute;
+  top: -5rem;
 }
 
 .nav-check:checked ~ .nav {
   display: block;
 }
 
-/*.nav-check:checked ~ .nav ul {
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 20px;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.nav-open,
+.nav-close {
   display: block;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  top:0;
-}*/
-
-.nav-label img{
-  color: white;
-  width: 25px;
-  float: right;
+  width: 100%;
 }
 
-.nav-check {
-  position: absolute;
-  top: -3em;
-  color: white;
+.nav-close {
+  display: none;
 }
 
-.nav ul {
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.li {
+  list-style-type: none;
+  text-align: center;
+  color: white;
+  display: block;
+  padding: 4rem;
+}
+
+ul {
   margin: 0;
   padding: 0;
   background-color: #FF7171;
-  text-align: center;
-  display: block;
   height: 100vh;
   width: 100vw;
-  position: fixed;
-  top:0;
-}
-
-.nav li {
-  margin: 0;
-  padding: 0;
-  display: block;
   text-align: center;
-}
-
-.nav a,
-.nav a:link,
-.nav a:visited {
-  margin: 0,auto;
-  padding: .5rem;
-  color: white;
-  font-size: 1rem;
-  text-decoration: none;
-}
-
-.nav-check:checked ~ .nav-label {
-  background-color: grey;
 }
 
 @media only screen and (min-width: 25em) {
