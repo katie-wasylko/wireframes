@@ -189,6 +189,10 @@ h3 {
   width: 100vw;
 }
 
+.portfolio img {
+  display: inline;
+}
+
 footer a {
   text-decoration: none;
 }
