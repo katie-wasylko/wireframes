@@ -64,10 +64,10 @@ body {
 
 h1 {
   position: absolute;
-  top: 4rem;
+  top: 3.6rem;
   padding: 0;
   width: 100%;
-  color: #C2DEDB;
+  color: white;
   text-align: center;
   font-size: 12px;
   font-weight: normal;
@@ -75,11 +75,12 @@ h1 {
 }
 
 .skull {
-  width: 13rem;
+  width: 16rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
+  margin-bottom: 1rem;
   position: relative;
   z-index: -10;
 }
@@ -90,9 +91,20 @@ h2 {
   padding: 0.1rem;
   width: 100%;
   color: #FF7171;
-  color: rgba(255, 113, 113, 0.87);
   text-align: center;
   font-size: 35px;
+  z-index: 100;
+  line-height: 1em;
+}
+
+.katdesigns {
+  position: absolute;
+  top: 27rem;
+  padding: 0.1rem;
+  width: 100%;
+  color: #FF7171;
+  text-align: center;
+  font-size: 40px;
   z-index: 100;
   line-height: 1em;
 }
@@ -109,8 +121,9 @@ p {
 
 .social {
   text-align: center;
-  z-index: 1111100;
+  z-index: 1111100;hby c
 }
+
 footer a {
   text-decoration: none;
 }
