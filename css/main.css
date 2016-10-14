@@ -34,6 +34,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.grid {
+  overflow: hidden;
+}
+
+.unit {
+  float: left;
+}
+
 .layer {
   background-color: rgba(22, 51, 66, 0.6);
   position: absolute;
@@ -270,62 +278,3 @@ ul {
   width: 100vw;
   text-align: center;
 }
-
-@media only screen and (min-width: 25em) {
-
-  p {
-    margin-left: 2.3rem;
-    margin-right: 2.3rem;
-  }
-
-@media only screen and (min-width: 30em) {
-
-  p {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
-@media only screen and (min-width: 38em) {
-
-  .skull {
-    width: 11rem;
-  }
-
-  h2 {
-    top: 18.3rem;
-    font-size: 45px;
-  }
-
-  p {
-    margin-left: 6rem;
-    margin-right: 6rem;
-  }
-
-@media only screen and (min-width: 48em) {
-
-  .skull {
-    width: 20rem;
-    margin-top: 4rem;
-  }
-
-  h2 {
-    top: 28rem;
-    font-size: 80px;
-  }
-
-  p {
-    margin-left: 9rem;
-    margin-right: 9rem;
-    margin-top: 8.5rem;
-    font-size: 14px;
-  }
-
-@media only screen and (min-width: 56em) {
-
-  p {
-    margin-left: 11rem;
-    margin-right: 11rem;
-    font-size: 14px;
-  }
-
-@media only screen and (min-width: 64em) {
