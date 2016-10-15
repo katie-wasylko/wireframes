@@ -87,6 +87,27 @@ body {
   margin-right: auto;
 }
 
+.portfolio-top {
+  height: 100vh;
+}
+
+.portfolio-bottom {
+  background-color: #FF7171;
+  height: 100vh;
+  margin-top: -3.95rem;
+  padding-top: 1.5em;
+  text-align: center;
+}
+
+.portfolio-bottom img {
+  width: 12em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .gutter {
   padding-left: 1em;
   padding-right: 1em;
@@ -304,11 +325,33 @@ nav ul {
     top: 5.5rem;
     font-size: 16px;
   }
+
+  .skull {
+    width: 30rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  .katdesigns {
+    top: 43.5rem;
+    font-size: 90px;
+  }
 }
 
 @media only screen and (min-width:48em) {
 
   .about-bottom {
     height: 100vh;
+  }
+
+  .skull {
+    width: 25rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  .katdesigns {
+    top: 39rem;
+    font-size: 80px;
   }
 ]
