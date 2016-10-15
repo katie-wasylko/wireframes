@@ -40,6 +40,7 @@ body {
 
 .unit {
   float: left;
+  width: 33.3333%;
 }
 
 .unit-s-1 {
@@ -106,6 +107,18 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+}
+
+.portfolio {
+  position: absolute;
+  top: 11rem;
+  text-align: center;
+  width: 100%;
+  color: #FF7171;
+  font-size: 70px;
+  z-index: 100;
+  line-height: 1em;
+  font-weight: normal;
 }
 
 .gutter {
@@ -351,7 +364,7 @@ nav ul {
   }
 
   .katdesigns {
-    top: 39rem;
+    top: rem;
     font-size: 80px;
   }
 ]
