@@ -349,6 +349,12 @@ nav ul {
     top: 43.5rem;
     font-size: 90px;
   }
+
+  .portfolio {
+    top: 14rem;
+    font-size: 120px;
+  }
+
 }
 
 @media only screen and (min-width:48em) {
