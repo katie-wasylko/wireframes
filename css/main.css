@@ -45,6 +45,7 @@ body {
 .unit-s-1 {
   width: 100vw;
 }
+
 .about-top {
   height: 100vh;
 }
@@ -57,6 +58,27 @@ body {
 }
 
 .about-bottom img {
+  width: 12em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-top {
+  height: 100vh;
+}
+
+.contact-bottom {
+  background-color: #FF7171;
+  height: 100vh;
+  margin-top: -3.95rem;
+  padding-top: 1.5em;
+  text-align: center;
+}
+
+.contact-bottom img {
   width: 12em;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -140,6 +162,7 @@ h1 {
 
 .unit p {
   color: white;
+  text-align: center;
 }
 
 .social {
@@ -282,3 +305,10 @@ nav ul {
     font-size: 16px;
   }
 }
+
+@media only screen and (min-width:48em) {
+
+  .about-bottom {
+    height: 100vh;
+  }
+]
